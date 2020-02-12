@@ -28,7 +28,7 @@ const Schema = mongoose.Schema;
 // });
 // //
 
-app.listen(port, function () {
+app.listen(process.env.PORT || port, function () {
   console.log(`server is up. port: ${port}`);
 });
 
