@@ -43,7 +43,7 @@ const adScheme = new Schema({
   description: String,
   autor: String,
   autorId: String,
-  typeClass: Number,
+  typeClass: String,
   typeText: String,
   adData: String
 }, { versionKey: false });
@@ -107,13 +107,38 @@ let findUser = (filter = {}, res) => {
 //////////////// routing
 
 // get ads
-app.get('/get-ads', function (req, res) {
+app.get('/get-ads/:userId', function (req, res) {
 
-  findAD({}, res);
-  console.log('Ads is send.');
+  Ad.find({}, function (err, docs) {
+
+    if (err) console.log(err);
+    let ads = docs.filter(item => (item.autorId != req.params.userId));
+    res.send(ads);
+    console.log('Ads is send.');
+  })
 });
 
+// get my ads
+app.get('/get-my-ads/:userId', function (req, res) {
 
+  Ad.find({autorId: req.params.userId}, function (err, docs) {
+
+    if (err) res.send(err);
+    res.send(docs);
+
+  })
+});
+
+// delete my ad
+app.get('/delete-ad/:adId', function (req, res) {
+
+  Ad.findOneAndDelete({idAd: req.params.adId}, function (err, docs) {
+
+    if (err) res.send(err);
+    console.log(`Ad id- ${req.params.adId} has delete.`)
+    res.sendStatus(200);
+  })
+});
 // add user
 app.put("/add-new-user", jsonParser, function (req, res) {
   addUserToMongo(req.body.userData);
