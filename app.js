@@ -11,28 +11,21 @@ app.use((req, res, next) => {
 })
 const port = 2000;
 // const server = createServer(app);
-const urlGeboDB = 'mongodb://localhost:27017/geboBD';
-// const urlGeboDB = 'mongodb+srv://artyr:979798228@gebo-cluster-urz9o.mongodb.net/geboBD';
-// const MONGODB_URI = 'mongodb://heroku_3dk8v9b3:ge87qujkv9bvrgi7tpnuqrpdcv@ds337718.mlab.com:37718/heroku_3dk8v9b3'
+// const urlGeboDB = 'mongodb://localhost:27017/geboBD';
+const MONGODB_URI = 'mongodb://heroku_r5815mp9:vqbgnk729h5j6im6ta6rspt3ca@ds213472.mlab.com:13472/heroku_r5815mp9'
 
 ///////////////// mongoose require
 let mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
-// //
-// mongoose.connect((urlGeboDB), { useNewUrlParser: true, useUnifiedTopology: true }, function (err) {
-//   if (err) return console.log(err);
-//   app.listen(port, function () {
-//     console.log(`server is up. port: ${port}`);
-//   });
-// });
-// //
-
-app.listen(process.env.PORT || port, function () {
-  console.log(`server is up. port: ${port}`);
+//
+mongoose.connect((MONGODB_URI), { useNewUrlParser: true, useUnifiedTopology: true }, function (err) {
+  if (err) return console.log(err);
+  app.listen(process.env.PORT || port, function () {
+    console.log(`server is up. port: ${port}`);
+  });
 });
-
-
+//
 
 
 /////////////// new schema users
