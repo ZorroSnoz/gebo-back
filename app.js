@@ -12,13 +12,14 @@ app.use((req, res, next) => {
 const port = 2000;
 // const server = createServer(app);
 const urlGeboDB = 'mongodb://localhost:27017/geboBD';
+const MONGODB_URI = 'mongodb://heroku_3dk8v9b3:ge87qujkv9bvrgi7tpnuqrpdcv@ds337718.mlab.com:37718/heroku_3dk8v9b3'
 
 ///////////////// mongoose require
 let mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 //
-mongoose.connect(urlGeboDB, { useNewUrlParser: true, useUnifiedTopology: true }, function (err) {
+mongoose.connect((urlGeboDB || MONGODB_URI), { useNewUrlParser: true, useUnifiedTopology: true }, function (err) {
   if (err) return console.log(err);
   app.listen(port, function () {
     console.log(`server is up. port: ${port}`);
