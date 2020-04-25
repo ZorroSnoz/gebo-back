@@ -21,7 +21,7 @@ const Schema = mongoose.Schema;
 //
 mongoose.connect((urlGeboDB || MONGODB_URI), { useNewUrlParser: true, useUnifiedTopology: true }, function (err) {
   if (err) return console.log(err);
-  app.listen(process.env.PORT || port, function () {
+  app.listen(port || process.env.PORT, function () {
     console.log(`server is up. port: ${port}`);
     console.log(`connect to: ${urlGeboDB}`);
   });
