@@ -11,7 +11,7 @@ app.use((req, res, next) => {
 })
 const port = 2000;
 // const server = createServer(app);
-const urlGeboDB = 'mongodb://localhost:27017/geboBD';
+const urlGeboDB = 'mongodb://localhost:27017/GEBO_DB';
 // const MONGODB_URI = 'mongodb://heroku_r5815mp9:vqbgnk729h5j6im6ta6rspt3ca@ds213472.mlab.com:13472/heroku_r5815mp9'
 
 ///////////////// mongoose require
