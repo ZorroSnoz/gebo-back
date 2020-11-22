@@ -21,7 +21,8 @@ const Schema = mongoose.Schema;
 //
 mongoose.connect((MONGODB_URI), { useNewUrlParser: true, useUnifiedTopology: true }, function (err) {
   if (err) return console.log(err);
-  app.listen(process.env.PORT, function () {
+  // process.env.PORT
+  app.listen(2000, function () {
     console.log(`server is up. port: ${process.env.PORT}`);
     console.log(`connect to: ${MONGODB_URI}`);
   });
@@ -106,8 +107,8 @@ let findUser = (filter = {}, res) => {
 
 //////////////// routing
 app.get('/', function (req, res) {
-
-res.send('hello')
+  app.use(express.static('front-build'));
+  res.sendFile(__dirname + "/front-build/index.html");
 });
 
 // get ads
