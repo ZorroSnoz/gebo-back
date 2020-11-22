@@ -88,6 +88,26 @@ let addAdToMongo = (adData: any) => {
   })
 }
 
+// edit ad
+let editAdToMongo = (adData: any) => {
+
+  const ad = new Ad({
+    idAd: adData.idAd,
+    img: adData.img,
+    description: adData.description,
+    autor: adData.autor,
+    autorId: adData.autorId,
+    typeClass: adData.typeClass,
+    typeText: adData.typeText,
+    adData: adData.adData
+  })
+
+  ad.save(function (err: any) {
+
+    if (err) return console.log(err)
+  })
+}
+
 // find ad :TODO need check, maybe need delete this function
 let findAD = (filter = {}, res: any) => {
 
@@ -133,6 +153,7 @@ app.get('/get-ads/:userId', function (req: any, res: any) {
 app.get('/get-my-ads/:userId', function (req: any, res: any) {
 
   Ad.find({autorId: req.params.userId}, function (err: any, docs: any) {
+console.log(docs)
 
     if (err) res.send(err)
     res.send(docs)
@@ -167,5 +188,25 @@ app.put("/add-new-ad", jsonParser, function (req: any, res: any) {
   addAdToMongo(req.body.adData)
   console.log('Ad is added.')
   res.sendStatus(200)
+
+})
+
+// edit ad
+app.put("/edit-ad", jsonParser, async (req: any, res: any) => {
+
+  const filter = { _id: req.body.adData._id }
+  const update = {
+    adData: req.body.adData.adData,
+    autor: req.body.adData.autor,
+    autorId: req.body.adData.autorId,
+    description: req.body.adData.description,
+    idAd: req.body.adData.idAd,
+    img: req.body.adData.img,
+    typeClass: req.body.adData.typeClass,
+    typeText: req.body.adData.typeText
+  }
+
+let updatedData = await Ad.findOneAndUpdate(filter, update, {  new: true, upsert: true, rawResult: true})
+  res.send(updatedData)
 
 })
