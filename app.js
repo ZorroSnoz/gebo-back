@@ -22,7 +22,7 @@ const Schema = mongoose.Schema;
 mongoose.connect((MONGODB_URI), { useNewUrlParser: true, useUnifiedTopology: true }, function (err) {
   if (err) return console.log(err);
   // process.env.PORT
-  app.listen(2000, function () {
+  app.listen(process.env.PORT, function () {
     console.log(`server is up. port: ${process.env.PORT}`);
     console.log(`connect to: ${MONGODB_URI}`);
   });
