@@ -58,6 +58,7 @@ mongoose.connect((MONGODB_URI), { useNewUrlParser: true, useUnifiedTopology: tru
 var userScheme = new Schema({
     name: String,
     userId: String,
+    phone: String,
     foto: String
 }, { versionKey: false });
 var User = mongoose.model("User", userScheme);
@@ -73,10 +74,16 @@ var adScheme = new Schema({
 }, { versionKey: false });
 var Ad = mongoose.model("Ad", adScheme);
 var addUserToMongo = function (userData) {
-    var user = new User({
+
+    let newUserData = {
         name: userData.name,
-        userId: userData.idUser
-    });
+        userId: userData.idUser,
+    }
+    if (userData.phone) {
+        newUserData.phone = userData.phone
+    }
+    
+    var user = new User(newUserData);
     user.save(function (err) {
         if (err)
             return console.log(err);
@@ -159,7 +166,7 @@ app.get('/delete-ad/:adId', function (req, res) {
         res.sendStatus(200);
     });
 });
-app.put("/add-new-user", jsonParser, function (req, res) {
+app.post("/add-new-user", jsonParser, function (req, res) {
     addUserToMongo(req.body.userData);
     console.log('User is added.');
     res.sendStatus(200);

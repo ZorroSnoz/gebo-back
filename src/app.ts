@@ -25,7 +25,7 @@ const Schema = mongoose.Schema
 mongoose.connect((MONGODB_URI), { useNewUrlParser: true, useUnifiedTopology: true }, function (err: any) {
   if (err) return console.log(err)
   app.listen(process.env.PORT, function () {
-    console.log(`server is up. port: ${process.env.PORT}`)
+    console.log(`server is up. por: ${process.env.PORT}`)
     console.log(`connect to: ${MONGODB_URI}`)
   })
 })
@@ -36,6 +36,7 @@ mongoose.connect((MONGODB_URI), { useNewUrlParser: true, useUnifiedTopology: tru
 const userScheme = new Schema({
   name: String,
   userId: String,
+  phone: String,
   foto: String
 }, { versionKey: false })
 const User = mongoose.model("User", userScheme)
@@ -56,16 +57,23 @@ const Ad = mongoose.model("Ad", adScheme)
 ////////// functions for mongoose
 // added users in mongoDB
 let addUserToMongo = (userData: any) => {
-
-  const user = new User({
+  
+  
+  let newUserData: any = {
     name: userData.name,
-    userId: userData.idUser
-  })
+    userId: userData.idUser,
+  }
+  if (userData.phone) {
+    newUserData.phone = userData.phone
+  }
+  
+    const user = new User(newUserData)
 
-  user.save(function (err: any) {
+    user.save(function (err: any) {
 
-    if (err) return console.log(err)
-  })
+      if (err) return console.log(err)
+    })
+  
 }
 
 // added ad in mongoDB
@@ -174,7 +182,7 @@ app.get('/delete-ad/:adId', function (req: any, res: any) {
 })
 
 // add user
-app.put("/add-new-user", jsonParser, function (req: any, res: any) {
+app.post("/add-new-user", jsonParser, function (req: any, res: any) {
 
   addUserToMongo(req.body.userData)
   console.log('User is added.')
