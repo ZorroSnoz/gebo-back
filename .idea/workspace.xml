@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:geboBack" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:geboBack" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:geboBack/master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="940e8c5a-b148-42b0-9c47-20b5dece30f4" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="master_localhost" />
+                <branch-info repo="$PROJECT_DIR$" source="master_web-ver" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master_web-ver" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/ZorroSnoz/gebo-back.git" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1isYA8bXEuNgwQgJ0odJSZUBoL7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="ToolWindowFavorites.ShowToolbar" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="jsx.switch.disabled" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="ts.external.directory.path" value="D:\Node.js\2020\gebo-back\node_modules\typescript\lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Node.js\2020\gebo-back" />
+      <recent name="D:\Node.js\2020\gebo-back\src" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="940e8c5a-b148-42b0-9c47-20b5dece30f4" name="Default Changelist" comment="" />
+      <created>1602697619897</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602697619897</updated>
+      <workItem from="1602697621213" duration="1569000" />
+      <workItem from="1602699878145" duration="3000" />
+      <workItem from="1603476631595" duration="1929000" />
+      <workItem from="1603478804901" duration="756000" />
+      <workItem from="1603480283185" duration="40000" />
+      <workItem from="1603480363568" duration="526000" />
+      <workItem from="1603480907225" duration="87000" />
+      <workItem from="1603481455799" duration="38000" />
+      <workItem from="1606047098061" duration="3253000" />
+      <workItem from="1606052009027" duration="22000" />
+      <workItem from="1606052043106" duration="367000" />
+      <workItem from="1606053858829" duration="4220000" />
+      <workItem from="1606058328299" duration="2460000" />
+      <workItem from="1606060815155" duration="1880000" />
+      <workItem from="1606063799345" duration="2126000" />
+      <workItem from="1606067483706" duration="6853000" />
+      <workItem from="1606166565166" duration="8000" />
+      <workItem from="1606677693112" duration="398000" />
+      <workItem from="1608548043027" duration="622000" />
+      <workItem from="1615076529245" duration="871000" />
+      <workItem from="1615117951621" duration="523000" />
+      <workItem from="1615397150468" duration="680000" />
+      <workItem from="1617538722494" duration="1481000" />
+      <workItem from="1617607189746" duration="59000" />
+      <workItem from="1621345714984" duration="642000" />
+      <workItem from="1621346593727" duration="10000" />
+      <workItem from="1621367382024" duration="3228000" />
+      <workItem from="1621404660766" duration="126000" />
+      <workItem from="1621877751597" duration="1245000" />
+      <workItem from="1622313509283" duration="1095000" />
+      <workItem from="1622364961787" duration="4367000" />
+      <workItem from="1622441550657" duration="325000" />
+      <workItem from="1622662522359" duration="689000" />
+      <workItem from="1622700776686" duration="31000" />
+      <workItem from="1623174658664" duration="3001000" />
+      <workItem from="1623776974066" duration="2051000" />
+      <workItem from="1624301315602" duration="886000" />
+      <workItem from="1624889274092" duration="640000" />
+    </task>
+    <task id="LOCAL-00001" summary="new mongo DB">
+      <created>1603478214416</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603478214416</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added new database">
+      <created>1606052137468</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1606052137468</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added build spa">
+      <created>1606054408123</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1606054408123</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added build spa (fix port)">
+      <created>1606054587456</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1606054587456</updated>
+    </task>
+    <task id="LOCAL-00005" summary="added TS and Gulp">
+      <created>1606064515473</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1606064515473</updated>
+    </task>
+    <task id="LOCAL-00006" summary="fix port for Heroku">
+      <created>1606064634254</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1606064634254</updated>
+    </task>
+    <task id="LOCAL-00007" summary="fix for localhost">
+      <created>1606064992032</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1606064992032</updated>
+    </task>
+    <task id="LOCAL-00008" summary="change start script">
+      <created>1606065141535</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1606065141535</updated>
+    </task>
+    <task id="LOCAL-00009" summary="change start script">
+      <created>1606065931715</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1606065931715</updated>
+    </task>
+    <task id="LOCAL-00010" summary="added &quot;edit ad&quot; functional">
+      <created>1606081353707</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1606081353707</updated>
+    </task>
+    <task id="LOCAL-00011" summary="update front end build">
+      <created>1606677760743</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1606677760743</updated>
+    </task>
+    <task id="LOCAL-00012" summary="commit after pause">
+      <created>1621370529306</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1621370529306</updated>
+    </task>
+    <task id="LOCAL-00013" summary="updated front">
+      <created>1622313567350</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1622313567350</updated>
+    </task>
+    <task id="LOCAL-00014" summary="updated front">
+      <created>1622314282586</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1622314282586</updated>
+    </task>
+    <task id="LOCAL-00015" summary="added new build front">
+      <created>1622372958485</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1622372958485</updated>
+    </task>
+    <task id="LOCAL-00016" summary="added new build front">
+      <created>1622381877459</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1622381877459</updated>
+    </task>
+    <task id="LOCAL-00017" summary="added new build front">
+      <created>1622382192549</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1622382192549</updated>
+    </task>
+    <task id="LOCAL-00018" summary="added new build front">
+      <created>1622385793908</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1622385793908</updated>
+    </task>
+    <task id="LOCAL-00019" summary="added build front">
+      <created>1622662609890</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1622662609890</updated>
+    </task>
+    <task id="LOCAL-00020" summary="added front build">
+      <created>1623174779400</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1623174779400</updated>
+    </task>
+    <task id="LOCAL-00021" summary="added front build">
+      <created>1623175216007</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1623175216007</updated>
+    </task>
+    <task id="LOCAL-00022" summary="added front build">
+      <created>1623175877058</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1623175877058</updated>
+    </task>
+    <task id="LOCAL-00023" summary="added front build">
+      <created>1623177271030</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1623177271030</updated>
+    </task>
+    <task id="LOCAL-00024" summary="added front build">
+      <created>1623182117613</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1623182117613</updated>
+    </task>
+    <task id="LOCAL-00025" summary="added build">
+      <created>1624301496863</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1624301496863</updated>
+    </task>
+    <task id="LOCAL-00026" summary="added build">
+      <created>1624305089577</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1624305089577</updated>
+    </task>
+    <task id="LOCAL-00027" summary="remove database">
+      <created>1624889627227</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1624889627227</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="geboBack/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="geboBack/master" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master_localhost" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="new mongo DB" />
+    <MESSAGE value="added new database" />
+    <MESSAGE value="added build spa" />
+    <MESSAGE value="added build spa (fix port)" />
+    <MESSAGE value="added TS and Gulp" />
+    <MESSAGE value="fix port for Heroku" />
+    <MESSAGE value="fix for localhost" />
+    <MESSAGE value="change start script" />
+    <MESSAGE value="added &quot;edit ad&quot; functional" />
+    <MESSAGE value="update front end build" />
+    <MESSAGE value="commit after pause" />
+    <MESSAGE value="updated front" />
+    <MESSAGE value="added new build front" />
+    <MESSAGE value="added build front" />
+    <MESSAGE value="added front build" />
+    <MESSAGE value="added build" />
+    <MESSAGE value="remove database" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove database" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1622700800363">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1622700800363" />
+    <state x="2606" y="211" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1622382586816" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1621877779803" />
+    <state x="608" y="115" key="RollbackChangesDialog" timestamp="1624889402523">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="608" y="115" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1624889402523" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1624305107812">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1624305107812" />
+    <state x="2371" y="183" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1622385799125" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1623182125082" />
+  </component>
+</project>
